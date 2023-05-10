@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="IoT Applications" />
+    <meta name="author" content="Garima" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>IoT Applications</title>
+</head>
+
+<body>
+
+    <div id="top-part">
+        </br>
+        <h1 style="font-size:40px; background-color:rgb(130, 102, 190)">IoT APPLICATIONS</h1>
+    </div>
+
+    <div class="d-flex flex-row" id="bottom-part">
+
+        <!-- FIRST COLUMN -->
+        <div class="p-3" id="flex">
+
+            <h2>Introduction</h2>
+            <img src="iot.png" alt="Internet of Things">
+
+            <div class="center">
+                <a href="#demo" class="btn btn-info" data-toggle="collapse">IoT Definition</a>
+                <div id="demo" class="collapse">
+                    <p id="right-flex" ; style="color:rgb(3, 116, 124)"></br>The Internet of Things (IoT) refers to a
+                        network of physical devices, vehicles, home appliances, and other items that are embedded with
+                        sensors, software, and connectivity. These devices can interact and exchange data with each
+                        other, enabling the creation of a smart and interconnected world.
+                        </br>Examples: </p>
+                    <ul id="right-list" ; style="color:rgb(3, 116, 124)">
+                        <li>Google assistant/ Smart speakers</li>
+                        <li>Philips Hue bulbs</li>
+                        <li>Remote Central Climate Controls based on sensors</li>
+                        <li>Smart Watches</li>
+                    </ul>
+                </div>
+                <p id="right-flex"></br>For indoor planting, IoT makes monitoring and management of micro-climate
+                    conditions a reality, which in turn increases production. For outside planting, devices using IoT
+                    technology can sense soil moisture and nutrients, in conjunction with weather data, better control
+                    smart irrigation and fertilizer systems. If the sprinkler systems dispense water only when needed,
+                    for example, this prevents wasting a precious resource.</p>
+
+            </div>
+            <div><br></br></div>
+
+
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+                10 Fascinating Facts About the Internet of Things (IoT) That You Need to Know
+            </button>
+
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h1 class="modal-title">IoT Insights</h1>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>1.IoT stands for "Internet of Things" and refers to the network of physical devices, vehicles, buildings, and other items embedded with sensors, software, and connectivity, allowing them to collect and exchange data.</p>
+
+                            <p>2.The first IoT device was a Coca-Cola vending machine at Carnegie Mellon University in the early 1980s. The machine was connected to the internet and could report on its inventory and whether its drinks were cold or not.</p>
+                                
+                            <p>3.The IoT market is expected to grow to over $1.5 trillion by 2025, with over 75 billion connected devices in use.</p>
+                                
+                            <p>4.The top five IoT applications are Smart Homes, Industrial IoT, Connected Health, Smart Cities, and Connected Cars.</p>
+                                
+                            <p>5.IoT has the potential to transform various industries, including healthcare, transportation, energy, agriculture, and manufacturing, by improving efficiency, reducing costs, and increasing productivity.</p>
+                                
+                            <p>6.IoT devices generate vast amounts of data, which can be analyzed and used to provide valuable insights for businesses and individuals.</p>
+                                
+                            <p>7.IoT devices can be vulnerable to cybersecurity threats, and protecting these devices and their data is a significant concern for individuals and businesses.</p>
+                                
+                            <p>8.The rise of 5G networks will enable faster and more reliable connectivity for IoT devices, allowing for even more advanced and innovative applications.</p>
+                                
+                            <p>9.IoT devices are increasingly being integrated with AI and machine learning technologies, enabling them to learn from their environment and make autonomous decisions.</p>
+                                
+                            <p>10.IoT is expected to have a significant impact on the job market, creating new jobs in areas such as data analysis and cybersecurity, while also automating certain tasks and potentially leading to job displacement in other areas.</p>
+                            
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- SECOND COLUMN -->
+        <div class="p-3" id="flex">
+            <p id="center-flex">IoT applications in smart buildings provide an efficient and intelligent way of managing
+                the energy consumption of a building, resulting in reduced costs and increased sustainability. One of
+                the most significant benefits of IoT in smart buildings is the ability to monitor and control various
+                systems remotely. For example, building managers can use IoT sensors to monitor temperature, humidity,
+                and occupancy levels in real-time, allowing them to make informed decisions about heating, cooling, and
+                lighting. IoT systems can also be used to monitor and control other building systems such as elevators,
+                lighting, and security.</p>
+            <p id="center-flex">Another key benefit of IoT applications in smart buildings is the ability to improve
+                safety and security. IoT sensors can be used to monitor and detect hazards such as gas leaks or fire,
+                alerting building managers and occupants in real-time. Additionally, IoT technology can be used to
+                monitor and control building access, ensuring that only authorized individuals can enter the building or
+                specific areas within the building. This can help prevent unauthorized access, theft, or vandalism. IoT
+                systems can also be used to monitor and track the movement of people and assets within the building,
+                providing valuable insights for building managers.</p>
+            <p style="border:2px solid Tomato;" ; id="center-flex">Let's do an activity...</p>
+            <p id="center-flex">Enter the name of IoT devices you use in daily life:</p>
+
+            <table id="parts" class="table">
+                <thead>
+                    <tr>
+                        <th>DEVICE LIST</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+            <h2>Add an IoT device </h2>
+
+            <div class="form-group">
+                <label for="partname">Device name</label>
+                <input type="text" class="form-control" id="partname" />
+            </div>
+
+            <button class="btn btn-success" id="add-part">Add</button>
+            <button class="btn btn-danger" id="remove-part">Remove last entry</button>
+
+        </div>
+
+        <!-- THIRD COLUMN -->
+        <div class="p-3" id="flex">
+            <div id="bottom-part">
+                <h2>The future of IoT</h2></br>
+                <iframe width="560" height="315" src="iot.mp4" title="Video player" frameborder="0"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>The future of IoT is bright, with experts predicting that IoT devices will become even more
+                    ubiquitous in the years to come. The growth of IoT will be driven by advances in technology,
+                    increased connectivity, and the development of new use cases. </br></p>
+            </div>
+            <div><br></br></div>
+            <div><br></br></div>
+
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="avatar.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Garima</h4>
+                    <p class="card-text">A software engineering student.</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div><br></br></div>
+            <div id="left-flex">SIT209: Software Engineering 2</br>Garima, 2110994804</div>
+            <div><br></br></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
